@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Receipt</title>
+		<link rel="stylesheet" type="text/css" href="receipt.css"></link>
+		<link rel="shortcut icon" type="x-icon" href="Logo.JPG"></link>
+		<script src="receipt.js"></script>
+	</head>
+	
+	<body>
+		<header id="HEAD">
+			<table id="title" style="width:100%">
+				<tr>
+					<th id="thlogo"><a href="index.html"><img src="Logo.JPG" width="127"></a></th>
+					<th id="thhawkzon">Hawkzon</th>
+					<th id="thcart"><img src = "ShoppingCart.JPG" width="127"></img></th>
+				</tr>
+			</table>
+		</header>
+		
+		<table id="Title" style="width:80%">
+			<tr>
+				<th id="TDReceipt" style="font-size:30px" colspan="6">Thank you for your purchasing!</th>
+			</tr>
+			<tr>
+				<th id="names" style="width:15%">#</th>
+   		 		<th id="names" style="width:15%">Product Name</th>
+   	 			<th id="names" style="width:15%">Number</th>
+   	 			<th id="names" style="width:15%">Price</th>
+   	 			<th id="names" style="width:15%">Style</th>
+   	 			<th id="names" style="width:15%">Remarks</th>
+  			</tr>
+		</table>
+		
+		<table id="ShoppingCart" style="width:80%">
+			<tr>
+				<td  style="width:15%"></td>
+   		 		<td  style="width:15%"></td>
+   	 			<td  style="width:15%"></td>
+   	 			<td  style="width:15%"></td>
+   	 			<td  style="width:15%"></td>
+   	 			<td  style="width:15%"><br><label id="lblTotalPrice">Total Price</label></td>
+  			</tr>
+		</table>
+		<table id="UserInfo" style="width:80%">
+			<tr>
+				<td style="text-align:left">
+					<label id="lblShhippingTo" style="margin-left:7px;font-size:23px"><b>Shipping To</b></label><br>
+					<label id="lblname" style="margin-left:7px">Name</label><br>
+					<label id="lblphonenum" style="margin-left:7px">PhoneNum</label><br>
+					<label id="lbladdress" style="margin-left:7px">Address</label>
+				</td>
+  			</tr>
+		</table>
+		<table style="width:80%"> 
+			<tr>
+				<td style="text-align:right;border:none"><a href="index.html"><button onclick="RemoveAll()" id="btnHome">Home</button></a></td>
+			</tr>
+		</table>
+
+	</body>
+</html>
