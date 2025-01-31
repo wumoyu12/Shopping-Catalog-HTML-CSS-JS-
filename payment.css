@@ -1,0 +1,68 @@
+body
+{
+	background:#faebd4;
+	font-family:Times New Roman;
+}
+
+header
+{
+	padding: 20px;
+	background: #6bb5f1;
+}
+
+th[id="thhawkzon"]
+{
+	width:100%;
+	text-align:center;
+	font-size:50px;
+}
+
+table,th,td
+{
+    margin: auto;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table[id="userinfo"]
+{
+	width:80%;
+	font-size:23px;
+	text-align:left;
+	background-color: #e0f7fa;
+}
+
+label[id="lbladdress"], [id="lblinfo"], [id="lblpayment"]
+{
+	font-size:27px;
+	color:#13445D;
+}
+
+label[id="lblcheckout"]
+{
+	font-size:35px;
+	color:#0D3041;
+}
+
+th
+{
+	border-top: 1pt solid black;
+	border-bottom: 1pt solid black;
+}
+
+input,select
+{
+	height:25px;
+}
+
+button
+{
+	background-color: #3f51b5;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #5c6bc0;
+    color: white;
+    border-color: white;
+}
