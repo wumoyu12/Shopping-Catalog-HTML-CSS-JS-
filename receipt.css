@@ -1,0 +1,64 @@
+body
+{
+	background:#faebd4;
+	font-family:Times New Roman;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1
+{
+	text-align:center;
+}
+
+header
+{
+	padding: 20px;
+	background: #6bb5f1;
+}
+
+table,th,td
+{
+	margin: auto;
+	text-align:center;
+	font-size:20px;
+	border-collapse: collapse;
+}
+
+th[id="TDcart"],td[id="names"]
+{
+	border: 1px solid black;
+}
+
+table[id="ShoppingCart"],[id="Title"],td,th
+{
+	border: 1px solid black;
+}
+
+th[id="thhawkzon"]
+{
+	width:100%;
+	text-align:center;
+	font-size:50px;
+	border: none;
+}
+
+th[id="thlogo"],[id="thcart"]
+{
+	border: none;
+}
+
+button
+{
+	background-color: #3f51b5;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #5c6bc0;
+    color: white;
+    border-color: white;
+}
