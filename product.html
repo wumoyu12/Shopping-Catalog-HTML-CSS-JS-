@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Products</title>
+		<link rel="stylesheet" type="text/css" href="product.css">
+		<link rel="shortcut icon" href="Logo.JPG" type="image/x-icon">
+		<script src="product.js"></script>
+	</head>
+	
+	<body>
+			<header id="HEAD">
+				<table id="title" style="width:100%">
+					<tr>
+						<th id="thlogo"><a href="index.html"><img src="Logo.JPG" width="127"></a></th>
+						<th id="thhawkzon">Hawkzon</th>
+						<th id="thcart"><a href="cart.html"><img src="ShoppingCart.JPG" width="127"></a></th>
+					</tr>
+				</table>
+			</header>
+		<br>
+		<div id="divJumpRope1">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname1" style="font-size:30px">Jump Rope</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="JumpRope.JPG" width="400" alt="Jump Rope"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany1" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice1">price: $15</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnred1" onclick="WhatColor(id)" style="background-color: #c1221a">Red</button>
+						<button id="btnblue1" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button>
+						<button id="btnblack1" onclick="WhatColor(id)" style="background-color: Black">Black</button><br>
+						<label id="lblstyle1">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks1" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+					
+						<label id="lblprice">Price: $15.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart1" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow1">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Red, Blue, Black</li>
+							<li>Special Feature	Tangle Free, Ergonomic, Lightweight</li>
+							<li>Handle Material	Plastic, Polyvinyl Chloride (PVC)</li>
+							<li>Adjustable Long Skipping Rope: 10ft length</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divPencilCase2">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname2" style="font-size:30px">Pencil Case</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="pencilcase.JPG" width="400" alt="Pencil Case"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany2" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice2">price: $7</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnred2" onclick="WhatColor(id)" style="background-color: #c1221a">Red</button>
+						<button id="btngreen2" onclick="WhatColor(id)" style="background-color: Green">Green</button>
+						<button id="btnblue2" onclick="WhatColor(id)" style="background-color: #44b6d4">Blue</button>
+						<button id="btnblack2" onclick="WhatColor(id)" style="background-color: Black">Black</button><br>
+						<label id="lblstyle2">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks2" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+					
+						<label id="lblprice">Price: $7.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart2" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow2">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Red, Green, Blue, Black</li>
+							<li>Size: 7.5 × 2.3 × 2.0 inches</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divCalculator3">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname3" style="font-size:30px">TI-84 Calculator</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="calculator.JPG" width="400" alt="Calculator"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany3" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice3">price: $90</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnred3" onclick="WhatColor(id)" style="background-color: #c1221a">Red</button>
+						<button id="btnblack3" onclick="WhatColor(id)" style="background-color: Black">Black</button>
+						<button id="btnblue3" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button><br>
+						<label id="lblstyle3">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks3" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+					
+						<label id="lblprice">Price: $90.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart3" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow3">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Red, Black, Blue</li>
+							<li>Power Source: Rechargeable battery</li>
+							<li>Calculator Type: Graphing</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divSharpener4">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname4" style="font-size:30px">Sharpener</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="sharpener.JPG" width="400" alt="Sharpener"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany4" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice4">price: $4</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnpink4" onclick="WhatColor(id)" style="background-color: #fb0fa8">Pink</button>
+						<button id="btnblue4" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button><br>
+						<button id="btngreen4" onclick="WhatColor(id)" style="background-color: Green">Green</button>
+						<button id="btnorange4" onclick="WhatColor(id)" style="background-color: #f98606">Orange</button><br>
+						<label id="lblstyle4">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks4" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $4</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart4" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow4">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Pink, Orange, Green, Blue</li>
+							<li>Material: Plastic</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divPencil5">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname5" style="font-size:30px">Pencil</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="pencils.JPG" width="400" alt="Pencil"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany5" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice5">price: $1</label><br><br>
+						<b><label id="lblcolor">Style:</label></b><br>
+						<button id="btnpresharpened5" onclick="WhichStyle(id)">Pre-Sharpened</button>
+						<button id="btnunsharpened5" onclick="WhichStyle(id)">Un-Sharpened</button><br>
+						<label id="lblstyle5">selected style: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks5" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $1</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart5" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow5">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Type: #2HB graphite Pencil</li>
+							<li>Color: Mixed</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divEraser6">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname6" style="font-size:30px">Eraser</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="eraser.JPG" width="400" alt="Eraser"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany6" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice6">price: $4</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnwhite6" onclick="WhatColor(id)" style="background-color: #c6cace">White</button>
+						<button id="btnblue6" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button><br>
+						<label id="lblstyle6">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks6" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+					
+						<label id="lblprice">Price: $4</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart6" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow6">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: White, Blue</li>
+							<li>Shape	Rectangular</li>
+							<li>Product Dimensions: 1.6"L x 0.6"W</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divHighlighter7">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname7" style="font-size:30px">Highlighter</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="highlighter.JPG" width="400" alt="Highlighter"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany7" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice7">price: $1</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnpink7" onclick="WhatColor(id)" style="background-color: #fb0fa8">Pink</button>
+						<button id="btnorange7" onclick="WhatColor(id)" style="background-color: #f98606">Orange</button>
+						<button id="btnyellow7" onclick="WhatColor(id)" style="background-color: #DFC63A">Yellow</button>
+						<button id="btngreen7" onclick="WhatColor(id)" style="background-color: Green">Green</button>
+						<button id="btnblue7" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button>
+						<button id="btnpurple7" onclick="WhatColor(id)" style="background-color: Purple">Purple</button><br>
+						<label id="lblstyle7">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks7" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $1</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart7" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow7">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Pink, Orange, Yellow, Green, Blue, Purple</li>
+							<li>Ink Color: Pink, Orange, Yellow, Green, Blue, Purple</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divRuler8">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname8" style="font-size:30px">Ruler</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="ruler.JPG" width="400" alt="Ruler"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany8" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice8">price: $1</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btngreen8" onclick="WhatColor(id)" style="background-color: Green">Green</button>
+						<button id="btnblue8" onclick="WhatColor(id)">Blue</button>
+						<button id="btnpink8" onclick="WhatColor(id)" style="background-color: #fb0fa8">Pink</button><br>
+						<label id="lblstyle8">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks8" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $1</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart8" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow8">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Size: 15cm, 6inch</li>
+							<li>Color: Green, Blue, Pink</li>
+							<li>Material: Plastic</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divPen9">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname9" style="font-size:30px">Pen</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="pen.JPG" width="400" alt="Pen"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany9" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice9">price: $2</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnred9" onclick="WhatColor(id)" style="background-color: #c1221a">Red</button>
+						<button id="btnblue9" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button>
+						<button id="btnblack9" onclick="WhatColor(id)" style="background-color: Black">Black</button><br>
+						<label id="lblstyle9">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks9" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $2.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart9" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow9">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Red, Blue, Black</li>
+							<li>Ink Color: Red, Blue, Black</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divNotebook10">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname10" style="font-size:30px">Notebook</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="notebook.JPG" width="400" alt="Notebook"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany10" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice10">price: $2</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnorange10" onclick="WhatColor(id)" style="background-color: #fcb386">Orange</button>
+						<button id="btngreen10" onclick="WhatColor(id)" style="background-color: Green">Green</button>
+						<button id="btnblue10" onclick="WhatColor(id)" style="background-color: #323faf">Blue</button><br>
+						<label id="lblstyle10">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks10" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $2</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart10" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow10">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Orange, Green, Blue</li>
+							<li>Pages: 200</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divShirt11">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname11" style="font-size:30px">Shirt</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="shirt.JPG" width="400" alt="Shirt"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany11" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice11">price: $15</label><br><br>
+						<b><label id="lblcolor">Size:</label></b><br>
+						<button id="btnS11" onclick="WhichSize(id)">S</button>
+						<button id="btnM11" onclick="WhichSize(id)">M</button>
+						<button id="btnL11" onclick="WhichSize(id)">L</button><br>
+						<label id="lblstyle11">selected size: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks11" placeholder="Ex. May I have one S and one M?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $15.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart11" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow11">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Size: S, M, L</li>
+							<li>Color: purple</li>
+							<li>Material: Cotton, Polyester, Blended Fabric</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divSweater12">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname12" style="font-size:30px">Sweater</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="sweater.JPG" width="400" alt="Sweater"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany12" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice12">price: $18</label><br><br>
+						<b><label id="lblcolor">Size:</label></b><br>
+						<button id="btnS12" onclick="WhichSize(id)">S</button>
+						<button id="btnM12" onclick="WhichSize(id)">M</button>
+						<button id="btnL12" onclick="WhichSize(id)">L</button><br>
+						<label id="lblstyle12">selected size: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks12" placeholder="Ex. May I have one S and one M?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $18.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart12" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow12">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Size: S, M, L</li>
+							<li>Color: purple</li>
+							<li>Material: Wool, Cotton, Blended Fabric</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divPants13">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname13" style="font-size:30px">Pants</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="pants.JPG" width="400" alt="Pants"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany13" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice13">price: $16</label><br><br>
+						<b><label id="lblcolor">Size:</label></b><br>
+						<button id="btnS13" onclick="WhichSize(id)">S</button>
+						<button id="btnM13" onclick="WhichSize(id)">M</button>
+						<button id="btnL13" onclick="WhichSize(id)">L</button><br>
+						<label id="lblstyle13">selected size: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks13" placeholder="Ex. May I have one S and one M?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $16.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart13" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow13">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Size: S, M, L</li>
+							<li>Color: purple</li>
+							<li>Material: Denim, Cotton, Polyester, Spandex</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divSkirt14">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname14" style="font-size:30px">Skirt</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="skirt.JPG" width="400" alt="Skirt"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany14" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice14">price: $14</label><br><br>
+						<b><label id="lblcolor">Size:</label></b><br>
+						<button id="btnS14" onclick="WhichSize(id)">S</button>
+						<button id="btnM14" onclick="WhichSize(id)">M</button>
+						<button id="btnL14" onclick="WhichSize(id)">L</button><br>
+						<label id="lblstyle14">selected size: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks14" placeholder="Ex. May I have one S and one M?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $14.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart14" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow14">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Size: S, M, L</li>
+							<li>Color: purple</li>
+							<li>Material: Cotton, Polyester, Spandex</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divBasketball15">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname15" style="font-size:30px">Basketball</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="basketball.JPG" width="400" alt="Basketball"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany15" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice15">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnorange15" onclick="WhatColor(id)" style="background-color: #f98606">Orange</button>
+						<button id="btnbrown15" onclick="WhatColor(id)" style="background-color: rgb(128, 64, 64)">Brown</button><br>
+						<label id="lblstyle15">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks15" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart15" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow15">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Orange, Brown</li>
+							<li>Buy 3 get 1 free!</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divFootball16">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname16" style="font-size:30px">Football</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="football.JPG" width="400" alt="Football"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany16" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice16">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnblack16" onclick="WhatColor(id)" style="background-color: Black">Black</button>
+						<button id="btnbrown16" onclick="WhatColor(id)" style="background-color: rgb(128, 64, 64)">Brown</button><br>
+						<label id="lblstyle16">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks16" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart16" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow16">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Black, Brown</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divSoccer17">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname17" style="font-size:30px">Soccer</label>
+					</th>
+				</tr>
+				
+				<tr>
+					<td id="image"><img src="soccer.JPG" width="400" alt="Soccer"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany17" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice17">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnblackNwhite17" onclick="WhatColor2(id)">Black and white</button>
+						<button id="btnyellow17" onclick="WhatColor(id)" style="background-color: #DFC63A">Yellow</button><br>
+						<label id="lblstyle17">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks17" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart17" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow17">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Black and white, Yellow</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divVolleyball18">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname18" style="font-size:30px">Volleyball</label>
+					</th>
+				</tr>	
+				<tr>
+					<td id="image"><img src="volleyball.JPG" width="400" alt="Volleyball"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany18" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice18">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnblueNwhite18" onclick="WhatColor2(id)">Blue and white</button>
+						<button id="btnyellow18" onclick="WhatColor(id)" style="background-color: #DFC63A">Yellow</button><br>
+						<label id="lblstyle18">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks18" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart18" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow18">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Blue and white, Yellow</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divChromebook19">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname19" style="font-size:30px">Chromebook</label>
+					</th>
+				</tr>	
+				<tr>
+					<td id="image"><img src="chromebook.JPG" width="400" alt="Chromebook"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany19" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice19">price: $150</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnwhite19" onclick="WhatColor(id)" style="background-color: #c6cace">White</button>
+						<button id="btnblack19" onclick="WhatColor(id)" style="background-color: Black">Black</button><br>
+						<label id="lblstyle19">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks19" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $150.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart19" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow19">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: White, Black</li>
+							<li>Size: 14ft</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divCustomCup20">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname20" style="font-size:30px">Custom Cup</label>
+					</th>
+				</tr>	
+				<tr>
+					<td id="image"><img src="cup.JPG" width="400" alt="Custom Cup"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany20" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice20">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnblue20" onclick="WhatColor(id)" style="background-color: #0c90f5">Blue</button>
+						<button id="btnpurple20" onclick="WhatColor(id)" style="background-color: #9a8cdb">Purple</button><br>
+						<label id="lblstyle20">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Customization Info(Optional):</label></b><br>
+						<input type="text" id="txtremarks20" placeholder="Ex. Can you print 'Hello World' on it?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart20" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow20">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Blue, Purple</li>
+							<li>Size: 14oz</li>
+							<li>Note: If you didn't fill out the customization info, </li>
+							<li>it will be a cup with only the school logo.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divSchoolBag21">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname21" style="font-size:30px">School Bag</label>
+					</th>
+				</tr>	
+				<tr>
+					<td id="image"><img src="bag.JPG" width="400" alt="School Bag"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany21" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice21">price: $20</label><br><br>
+						<b><label id="lblcolor">Color:</label></b><br>
+						<button id="btnblack21" onclick="WhatColor(id)" style="background-color: Black">Black</button>
+						<button id="btnwhite21" onclick="WhatColor(id)" style="background-color: #c6cace">White</button><br>
+						<label id="lblstyle21">selected color: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks21" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $20.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart21" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow21">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Color: Black, White</li>
+							<li>Size: 45 x 32 x 22 cm</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<div id="divBooks22">
+			<table id="Item" style="width:80%">
+				<tr>
+					<th id="itemname" colspan="3">
+						<label id="lblitemname22" style="font-size:30px">Books</label>
+					</th>
+				</tr>	
+				<tr>
+					<td id="image"><img src="books.JPG" width="400" alt="Books"></td>
+					
+					<td id="orderinfo" rowspan="2">
+						<b><label id="lblnum">Number:</label></b><br>
+						<input type="number" value="1" id="howmany22" style="width:60px">
+						<button onclick="CheckPrice()">Check Price</button><br>
+						<label id="lblprice22">price: $10</label><br><br>
+						<b><label id="lblcolor">Book Name:</label></b><br>
+						<button id="btnbookA22" onclick="WhichBook(id)">The Catcher in the Rye</button><br>
+						<button id="btnbookB22" onclick="WhichBook(id)">1984</button><br>
+						<button id="btnbookC22" onclick="WhichBook(id)">The Scarlet Letter</button><br>
+						<button id="btnbookD22" onclick="WhichBook(id)">The Wordy Shipmates</button><br>
+						<label id="lblstyle22">selected book: none</label><br><br>
+						<b><label id="lbLremarks">Order Remarks (Optional):</label></b><br>
+						<input type="text" id="txtremarks22" placeholder="Ex. May I have 1 xxx and 1 xxx?">
+					</td>
+					
+					<td id="additionalInfo" rowspan="2">
+						<label id="lblprice">Price: $10.00</label><br>
+						<label id="lblstock">In Stock</label><br><br>
+						<button id="AddToCart22" onclick="AddToCart(id)">Add to Cart</button><br>
+						<!--<button id="BuyNow22">Buy Now</button><br>-->
+						                    
+						<label id="lblship">Ships from: Hawkzon</label><br>
+						<label id="lblsold">Sold by: Hawkzon</label>
+					</td>
+				</tr>
+				<tr>
+					<td id="information">
+						<b><label id="lbliteminfo">Item Info</label></b>
+						<ul>
+							<li>Books for high school students</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
