@@ -1,0 +1,83 @@
+body
+{
+	background:#faebd4;
+	font-family:Times New Roman;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1
+{
+	text-align:center;
+}
+
+header
+{
+	padding: 20px;
+	background: #6bb5f1;
+}
+
+nav
+{
+	background: lightblue;
+	float: top;
+}
+
+table,th,td
+{
+	margin: auto;
+	text-align:center;
+	font-size:20px;
+	border-collapse: collapse;
+}
+
+table[id="welcomeMSG"]
+{
+	background: #d4d8fa;
+}
+
+td[id="item"],[id="description"]
+{
+	border: 1px solid black;
+	background: #d4d8fa;
+}
+
+td[id="ad"]
+{
+	background: #d4d8fa;
+}
+
+th[id="thhawkzon"]
+{
+	width:100%;
+	text-align:center;
+	font-size:50px;
+}
+
+th[id="welcome"]
+{
+	font-size:37px;
+	text-align:center;
+	font-family:Garamond;  
+}
+
+td[id="welcome2"]
+{
+	font-size:23px;
+	text-align:center;
+	font-family:Garamond;  
+}
+
+th[id="recommendations"],[id="stationery"],[id="uniforms"],[id="sports"],[id="miscellaneous"]
+{
+	font-size:30px;
+	background-color: #77a2f9;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
