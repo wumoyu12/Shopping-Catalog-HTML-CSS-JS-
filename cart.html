@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shopping Cart</title>
+		<link rel="stylesheet" type="text/css" href="cart.css"></link>
+		<link rel="shortcut icon" type="x-icon" href="Logo.JPG"></link>
+		<script src="cart.js"></script>
+	</head>
+	
+	<body>
+		<header id="HEAD">
+			<table id="title" style="width:100%">
+				<tr>
+					<th id="thlogo"><a href="index.html"><img src="Logo.JPG" width="127"></a></th>
+					<th id="thhawkzon">Hawkzon</th>
+					<th id="thcart"><img src = "ShoppingCart.JPG" width="127"></img></th>
+				</tr>
+			</table>
+		</header>
+		
+		<table id="Title" style="width:90%">
+			<tr>
+				<th id="TDcart" style="font-size:30px" colspan="6">Shopping Cart</th>
+			</tr>
+			<tr>
+				<th id="names" style="width:30%">Your Product(s)</th>
+   		 		<th id="names" style="width:30%">Info</th>
+   	 			<th id="names" style="width:30%">Number and Price</th>
+   	 			
+  			</tr>
+		</table>
+		
+		<table id="ShoppingCart" style="width:90%">
+			<tr>
+   	 			<td  style="width:30%"><label id="lblNothing">Nothing is here yet...</label></td>
+   	 			<td  style="width:30%"></td>
+   	 			<td  style="width:30%"><label id="lblTotalPrice"></label></td>
+  			</tr>
+		</table>
+		
+		<table id="TBLdelete" style="width:90%">
+			<tr>
+   	 			<td style="text-align:right">
+   	 				<button id="btnDelete">Remove All Products</button><br>
+   	 				<button id="btnCheckOut">Check Out</button>
+   	 			</td>
+  			</tr>
+		</table>
+		
+		<dialog id="message" open>
+			<p>Are you sure you want to delete ALL of your products? :(</p>
+  			<button id="btnYes">Yes</button>
+  			<button id="btnNo">No</button>
+		</dialog>
+		
+		<dialog id="message2" style="text-align:center" open>
+			<p>OK, refresh and you won't see your products anymore. :(</p>
+  			<button id="btnClose">Close</button>
+		</dialog>
+		
+		<dialog id="message3" style="width:100px; text-align:center" open>
+			<p>YAYYYY :)</p>
+  			<button id="btnClose2">Close</button>
+		</dialog>
+	</body>
+</html>
